@@ -1,5 +1,5 @@
 package com.tesco.lamda;
 
 public interface Addable {
-  public int add(int a, int b);
+  public void add(int a, int b);
 }
