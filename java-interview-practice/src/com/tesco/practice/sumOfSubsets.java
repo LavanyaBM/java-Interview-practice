@@ -9,7 +9,8 @@ public class sumOfSubsets {
 
   private static void subsetsum(int[] arr, int l, int r, int sum) {
     if (l > r) {
-      System.out.println(sum + " ");
+      //System.out.println("subset is");
+      System.out.print(sum + " ");
       return;
     }
     subsetsum(arr, l + 1, r, sum + arr[l]);
